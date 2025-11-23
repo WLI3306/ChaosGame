@@ -52,13 +52,13 @@ int main()
 				// Quit the game when the window is closed
 				window.close();
 			}
-			if (event.type == sf::Event::MouseButtonPressed)
+			if (event.type == Event::MouseButtonPressed)
 			{
-				if (event.mouseButton.button == sf::Mouse::Left)
+				if (event.mouseButton.button == Mouse::Left)
 				{
-					cout << "the left button was pressed" << std::endl;
-					cout << "mouse x: " << event.mouseButton.x << std::endl;
-					cout << "mouse y: " << event.mouseButton.y << std::endl;
+					cout << "the left button was pressed" << endl;
+					cout << "mouse x: " << event.mouseButton.x << endl;
+					cout << "mouse y: " << event.mouseButton.y << endl;
 
 					if (vertices.size() < 3)
 					{
