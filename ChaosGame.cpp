@@ -1,4 +1,4 @@
-// Member: Anup Jung Thapa
+// Member: Anup Jung Thapa and William Li
 // Include important C++ libraries here
 #include <SFML/Graphics.hpp>
 #include <SFML/Audio.hpp>
@@ -56,9 +56,9 @@ int main()
 			{
 				if (event.mouseButton.button == sf::Mouse::Left)
 				{
-					std::cout << "the left button was pressed" << std::endl;
-					std::cout << "mouse x: " << event.mouseButton.x << std::endl;
-					std::cout << "mouse y: " << event.mouseButton.y << std::endl;
+					cout << "the left button was pressed" << std::endl;
+					cout << "mouse x: " << event.mouseButton.x << std::endl;
+					cout << "mouse y: " << event.mouseButton.y << std::endl;
 
 					if (vertices.size() < 3)
 					{
